@@ -1,26 +1,27 @@
 # environment.yml
 name: cs_ftmle
 channels:
-  - conda-forge
-  - defaults
+    - conda-forge
+    - defaults
 
 dependencies:
-  - python=3.7
-  - pip
-  # Core specific python
-  - numpy
-  - matplotlib
-  - seaborn
-  # NLP
-  - nltk
-  - textblob
-  # Jupyter environment
-  - autopep8
-  - jupyterlab
-  - notebook
-  - ipython
-  - jupyter_contrib_nbextensions
-  - nbclean
-  # Autograding
-  - matplotcheck=0.0.11
-  - nbgrader
+    - python=3.7
+    - pip
+    # Core specific python
+    - numpy
+    - matplotlib
+    - seaborn
+    - beautifulsoup4
+    # NLP
+    - nltk
+    - textblob
+    # Jupyter environment
+    - autopep8
+    - jupyterlab
+    - notebook
+    - ipython
+    - jupyter_contrib_nbextensions
+    - nbclean
+    # Autograding
+    - matplotcheck=0.0.11
+    - nbgrader
